@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Collection home</title>
+
+</head>
+
+<body>
+<nav>
+  <ul>
+    <li><a href="/index">All Items</a></li>
+    <li><a href="/add">Add Item</a></li>
+    <li><a href="/update-item">Update Item</a></li>
+    <li><a href="/delete">Delete Item</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h1>All Action Figures</h1>
+  </section>
+
+  <section>
+
+    <form method="post" action="/delete">
+      <label>Name</label>
+      <input type="text"  name="deleteName">
+      <input type="submit" value="delete">
+    </form>
+  </section>
+</main>
+</body>
+</html>
